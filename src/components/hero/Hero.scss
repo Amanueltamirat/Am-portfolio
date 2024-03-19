@@ -1,0 +1,120 @@
+@import '../../app.scss';
+.hero{
+    height: calc(100vh - 100px);
+    background:linear-gradient(180deg, #0c0c1d, #111132) ;
+    overflow: hidden;
+    position: relative;
+     @include mobile{
+        gap: 10px;
+       }
+    .wrapper{
+        max-width: 1000px;
+        height: 100%;
+        margin: auto; 
+    }
+    .text-container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 50%;
+
+       @include mobile{
+        height: 45%;
+        width: 100%;
+        gap: 5px;
+        align-items: center;
+        text-align: center;
+       }
+          @include tablet{
+        height: 45%;
+        width: 100%;
+        gap: 5px;
+        align-items: center;
+        text-align: center;
+       }
+
+        h2{
+            font-size: 25px;
+            letter-spacing: 10px;
+            color: rebeccapurple;
+             @include mobile{
+                font-size: 15px;
+        
+       }
+        }
+        h1{
+            font-size: 40px;
+             @include mobile{
+                font-size: 20px;
+        
+       }
+        }
+        .buttons{
+            cursor: pointer;
+            button{
+
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 10px;
+            background-color: transparent;
+            color: white;
+            margin-right:20px ;
+            margin-bottom: 20px;
+             @include mobile{
+                padding: 5px;
+                 margin-bottom: 5px;
+        
+       }
+            
+            }
+        }
+        img{
+            width: 30px;
+        }
+    }
+    .image-container{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 20%;
+         @include mobile{
+        height: 115%;
+        width: 100%;
+        top: 120px;
+        left: 1rem;
+        // top: unset;
+        bottom: 0;
+      }
+            @include tablet{
+     height: 100%;
+        width: 50%;
+        top: 180px;
+        left: 30%;
+       }
+
+       img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+         @include mobile{
+        height: 90%;
+        width: 100%;
+        object-fit: contain;
+     
+       
+      }
+       }
+    
+    }
+       .sliding-text-container{
+        position: absolute;
+        font-size: 50vh;
+        bottom: 50px;
+        white-space:nowrap;
+        color: #ffffff09;
+        width: 50%;
+        font-weight: bold;
+       }
+}
