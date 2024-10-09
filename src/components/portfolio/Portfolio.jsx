@@ -11,10 +11,11 @@ const items = [
     },
       {
         id:2,
-        title:'Netflix Clone',
-        img:'/netflix.PNG',
-        desc:'netflix clone with Reactjs',
-        url:'http://my-netflix-clone-rk2x.onrender.com'  
+        title:'my-x',
+        img:'/my-x.png',
+        desc:'This is my x clone, and I used technologies like React,Tanstack query,Daisyui, Nodejs,Express, and Mongodb.',
+        url:'https://my-x.onrender.com/'
+        // url:'http://my-netflix-clone-rk2x.onrender.com'  
     },
       {
         id:3,
