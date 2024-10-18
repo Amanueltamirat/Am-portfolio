@@ -23,8 +23,15 @@ const items = [
         desc:'This is my chatGPT bot; you can ask anything. I used HTML, CSS, and JavaScript.',
         url:'https://amanueltamirat.github.io/my-chatGPT'  
     },
-      {
+    {
         id:4,
+        title:'Landing Page',
+        img:'/landing-page.png',
+        desc:'Just landing page, by using React and Tailwindcss',  
+        url:'https://amanueltamirat.github.io/landing-page'
+    },
+      {
+        id:5,
         title:'Amazon Clone',
         img:'/amazon.PNG',
         desc:'This is my Amazon clone, and I used technologies like React, Bootstrap, Nodejs, and Mongodb.',  
