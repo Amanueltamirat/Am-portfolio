@@ -25,6 +25,14 @@ const items = [
     },
       {
         id:4,
+        title:'Landing Page',
+        img:'/landing-page.png',
+        desc:'Just landing page, by using React and Tailwindcss',  
+        url:'https://amanueltamirat.github.io/landing-page'
+    },
+    }
+     {
+        id:5,
         title:'Amazon Clone',
         img:'/amazon.PNG',
         desc:'This is my Amazon clone, and I used technologies like React, Bootstrap, Nodejs, and Mongodb.',  
