@@ -30,7 +30,12 @@ const items = [
         desc:'Just landing page, by using React and Tailwindcss',  
         url:'https://amanueltamirat.github.io/landing-page'
     },
+<<<<<<< HEAD
       {
+=======
+    }
+     {
+>>>>>>> c05981085ba65f1a897dcd51f678c41781374b37
         id:5,
         title:'Amazon Clone',
         img:'/amazon.PNG',
