@@ -4,18 +4,17 @@ import {motion, useScroll, useSpring, useTransform } from 'framer-motion'
 const items = [
     {
         id:1,
-        title:'Amazon Clone',
-        img:'/amazon.PNG',
-        desc:'This is my Amazon clone, and I used technologies like React, Bootstrap, Nodejs, and Mongodb.',  
-        url:'http://my-amazon-14yi.onrender.com/'
+        title:'My-Ecommerce app',
+        img:'/e-commerce.png',
+        desc:'This is my e-commerce app, and I used technologies and modules like Redis,cloudinary for storing images, Tailwindcss,Recharts,React,framer-motion,Stripe for payment, Nodejs and Mongodb.',  
+        url:'https://my-e-commerce-3c72.onrender.com'
     },
       {
         id:2,
         title:'my-x',
         img:'/my-x.png',
         desc:'This is my x clone, and I used technologies like React,Tanstack query,Daisyui, Nodejs,Express, and Mongodb.',
-        url:'https://my-x.onrender.com/'
-        // url:'http://my-netflix-clone-rk2x.onrender.com'  
+        url:'https://my-x.onrender.com' 
     },
       {
         id:3,
@@ -26,10 +25,10 @@ const items = [
     },
       {
         id:4,
-        title:'Workout Recorder',
-        img:'/workout.PNG',
-        desc:'This is my workout recording app. I used technologies like HTML, CSS, and JavaScript.',  
-        url:'https://amanueltamirat.github.io/Record-workout' 
+        title:'Amazon Clone',
+        img:'/amazon.PNG',
+        desc:'This is my Amazon clone, and I used technologies like React, Bootstrap, Nodejs, and Mongodb.',  
+        url:'http://my-amazon-14yi.onrender.com'
     }
 ]
 
