@@ -23,15 +23,22 @@ const items = [
         desc:'This is my chatGPT bot; you can ask anything. I used HTML, CSS, and JavaScript.',
         url:'https://amanueltamirat.github.io/my-chatGPT'  
     },
-    {
+      {
         id:4,
+        title:'Crowdfunding-web-app',
+        img:'/Screenshot (45).png',
+        desc:'A crowdfunding platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that allows users to create projects, fund them, and track their progress.',  
+        url:'https://crowdfunding-app.onrender.com'
+    },
+    {
+        id:5,
         title:'Landing Page',
         img:'/landing-page.png',
         desc:'Just landing page, by using React and Tailwindcss',  
         url:'https://amanueltamirat.github.io/landing-page'
     },
      {
-        id:5,
+        id:6,
         title:'Amazon Clone',
         img:'/amazon.PNG',
         desc:'This is my Amazon clone, and I used technologies like React, Bootstrap, Nodejs, and Mongodb.',  
