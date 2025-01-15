@@ -26,7 +26,7 @@ const items = [
       {
         id:4,
         title:'Crowdfunding-web-app',
-        img:'/Screenshot (45).png',
+        img:'/Screenshot (41).png',
         desc:'A crowdfunding platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that allows users to create projects, fund them, and track their progress.',  
         url:'https://crowdfunding-app.onrender.com'
     },
